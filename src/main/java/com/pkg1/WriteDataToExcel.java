@@ -18,6 +18,10 @@ public class WriteDataToExcel {
         Cell c0 = r0.createCell(0);
         c0.setCellValue("kelly");
 
+        Row r1 = sheet1.createRow(1);
+        Cell c1 = r1.createCell(1);
+        c1.setCellValue("Henry");
+
         //create file
         File f=new File(System.getProperty("user.dir")+"\\src\\main\\java\\com\\properties\\TestData\\TestData.xls");
         FileOutputStream fileOutputStream = new FileOutputStream(f);
