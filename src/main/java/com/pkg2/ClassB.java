@@ -28,6 +28,9 @@ public void login(String s,String f)
     {
         System.out.println("noise");
     }
+// super -- return the variable,constractors,method  in parent class
+    // this --
+    // final -- cannot change public final int i = 10; public final method -- child cannot override
 
 
 
